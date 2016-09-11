@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+
+	h1 {
+		font-size: 3em;
+	}
+
+  	form {
+    	max-width: 768px;
+  }
+
+  	.input-w label {
+
+    text-align: right;
+    clear: both;
+    float: left;
+    margin-left: 35px;
+  }
+
+	.input-w input,
+	.input-w select {
+	    height: 20px;
+	    width: 300px;
+	    border: 1px solid #fff;
+	    margin-top: 10px;
+	    float: right;
+	    margin-right: 35px;
+  }
+
+	input[type=button] {
+	    float:none;
+  }
+
+  	input[type=text]:focus,
+	input[type=email]:focus,
+	input[type=telephone]:focus {
+    	width: 450px;
+    	border: solid #12355B;
+    
+  }
+
+  	input[type=text],
+	input[type=email],
+	input[type=telephone] {
+   	 	width: 50%;
+    	transition: ease-in-out, width .35s ease-in-out;
+  }
+
+  .clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+}

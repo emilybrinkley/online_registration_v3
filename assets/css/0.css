@@ -1,0 +1,137 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  color: #384047;
+  background: url(../img/code_bkgnd.png) no-repeat fixed;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+nav {
+  background: #12355B;
+  padding: 22px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+h2,
+.header,
+footer {
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p,
+footer {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.header {
+    margin-top: -18px;
+    padding-bottom: 46px;
+    border-bottom: thick solid #D72638;
+}
+
+.newsletter h3 {
+    margin-top: 23px;
+    padding-top: 46px;
+    border-top:  solid #D72638;
+}
+
+
+input[type="text"],
+input[type="address"],
+input[type="telephone"],
+input[type="zipcode"],
+input[type="city"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #D3D3D3;
+  color: #0000;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #D72638;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #D72638;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+input[placeholder] {
+   text-align: right;
+   font-style: italic; 
+}
+
+

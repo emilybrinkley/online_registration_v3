@@ -36,7 +36,7 @@ footer {
   text-align: center;
 }
 
-h3 {
+legend {
   font-size: 22px;
   font-weight: bold;
 }
@@ -53,10 +53,14 @@ footer {
     border-bottom: thick solid #D72638;
 }
 
-.newsletter h3 {
+fieldset {
     margin-top: 23px;
     padding-top: 46px;
     border-top:  solid #D72638;
+}
+
+.input-w label {
+  display: block;
 }
 
 

@@ -10,7 +10,7 @@
 
   	.input-w label {
 
-    text-align: right;
+    text-align: left;
     clear: both;
     float: left;
     margin-left: 35px;
@@ -38,7 +38,7 @@
     
   }
 
-  	input[type=text],
+  input[type=text],
 	input[type=email],
 	input[type=telephone] {
    	 	width: 50%;

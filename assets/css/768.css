@@ -30,17 +30,17 @@
 	    float:none;
   }
 
-  	input[type=text]:focus,
-	input[type=email]:focus,
-	input[type=telephone]:focus {
+  input[type=text]:focus,
+	input[type=mail]:focus,
+  input[type=date]:focus {
     	width: 450px;
     	border: solid #12355B;
     
   }
 
   input[type=text],
-	input[type=email],
-	input[type=telephone] {
+	input[type=mail],
+  input[type=date] {
    	 	width: 50%;
     	transition: ease-in-out, width .35s ease-in-out;
   }

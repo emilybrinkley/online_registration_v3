@@ -49,9 +49,10 @@
 	   			<input type="text" id="city" name="user_city">
 	   			</div>
 
-	   			<div class="input-w"> 
+	   			<div class="input-c"> 
 	   			<label for="state">State</label>
 	   			<select id="state" name="user_state">
+	   				<option value="choose state" selected hidden disabled>Choose State</option>
 	   				<option value="AL">AL</option>
 	   				<option value="AK">AK</option>
 	   				<option value="AZ">AZ</option>
@@ -141,7 +142,11 @@
 	   		</div>
    		<p>Other topics you'd like to hear about:</p>
 
-   		<textarea></textarea>
+   			<div class="textarea">
+		   		<label for="textarea">
+		   		<textarea type="textarea" placeholder="Enter text here"></textarea>
+		   		</label>
+		   	</div>
 
    		<button type="submit">Sign Up</button>
 

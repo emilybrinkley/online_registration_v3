@@ -26,6 +26,14 @@
 	    margin-right: 35px;
   }
 
+  .input-c select {
+      width: 50%;
+      border: 1px solid #fff;
+      margin-top: 10px;
+      float: right;
+      margin-right: 35px;
+  }
+
 	input[type=button] {
 	    float:none;
   }
@@ -43,6 +51,10 @@
   input[type=date] {
    	 	width: 50%;
     	transition: ease-in-out, width .35s ease-in-out;
+  }
+
+  select {
+    height: 36px;
   }
 
   .clearfix:after {

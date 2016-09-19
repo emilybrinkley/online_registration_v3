@@ -41,7 +41,7 @@ legend {
   font-weight: bold;
 }
 
-p,
+.textarea label,
 footer {
   font-size: 16px;
   font-style: italic;

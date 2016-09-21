@@ -7,7 +7,7 @@
   	form {
     	max-width: 768px;
   }
-
+    .input-c label,
   	.input-w label {
 
     text-align: left;
@@ -26,6 +26,7 @@
 	    margin-right: 35px;
   }
 
+  .input-c input,
   .input-c select {
       width: 50%;
       border: 1px solid #fff;
